@@ -1,0 +1,72 @@
+body{
+    background-color: aqua;
+}
+
+                            /* flexbox */
+
+.parent{
+    height: auto;
+    border: 2px solid darkgoldenrod;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box-1{
+    height: 150px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+}
+.box-2{
+    height: 150px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+}
+.box-3{
+    height: 150px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+}
+.box-4{
+    height: 150px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+}
+.box-5{
+    height: 150px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+}
+
+                 /* media query */
+
+@media screen and (min-width:400px){
+    /* 400px se width kam hogi tw media query/min-width work karegi */
+    body{
+        background-color: black;
+    }
+    h1{
+        color: white;
+        text-align: center;
+    }
+     .parent{
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid white;
+    }
+}  
+
+ @media screen and (max-width:800px){
+    /* agar 800px se kam hogi width tw ye media query/max-width work karegi */
+    body{
+        background-color: white;
+    }
+    .parent{
+        border: 2px solid black; 
+    }
+} 
