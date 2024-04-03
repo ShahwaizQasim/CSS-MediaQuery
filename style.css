@@ -70,3 +70,23 @@ body{
         border: 2px solid black; 
     }
 } 
+
+
+
+          /* perfect media query sizes */
+/* 
+ all mobiles
+ @media screen and (max-width:500px) {
+    
+ }
+
+tablets
+ @media screen and (min-width:500px) and  (max-width:768px) {
+    
+ }
+
+ laptop 
+
+@media screen and (min-width:768px) and (max-width:1440) {
+    
+}  */
